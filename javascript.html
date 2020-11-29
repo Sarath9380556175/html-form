@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="pushpa.js"></script>
+</head>
+<style>
+	p{
+		color:red;
+		border: 6px solid green;
+		background-color:blue;
+		margin-right:1200px;
+	}
+	</style>
+	<body>
+		<p id=sarath></p>
+		<p id=kumar></p>
+		<p id=reddy></p>
+		<button onclick="sarath()">click here to go to new window</button>
+		<button onclick="fuck()">click here for pushpa</button><br><br>
+		<button type="button" onclick="skr()">click here to know the value of x</button>
+		<script>
+			function skr()
+			{
+				var x=10;
+				document.getElementById("sarath").innerHTML="value of x is :" +x;
+			}
+			var x='hello \"sarath\"';
+			document.getElementById("kumar").innerHTML="length is" +x.indexOf("s");
+function sarath()
+{
+
+	kumar=window.open("https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_lastindexof");
+}
+
+		</script>
+	</body>
+	</html>
